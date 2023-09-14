@@ -1,0 +1,11 @@
+p {
+    font-size: 20px;
+    text-align: center;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+#first {
+    color: crimson;
+    font-size: xx-large;
+}

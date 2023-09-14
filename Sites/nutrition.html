@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./food.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">FFYL - Ernährungsplan</title>
+</head>
+<body>
+    <header>
+        <img src="../Images/bg-food.jpg" alt="Fighters eating">
+    </header>
+    <main>
+        <div class="top">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        <img src="../Images/logo_neu.png" alt="MMA Logo">
+                    </a>
+                </li>
+                <li class="centered">
+                    <ul>
+                        <li><a class="links" id="training" href="./training.html">Trainingspläne</a></li>
+                        <li><a class="links" id="nutrition" href="./nutrition.html">Ernährungspläne</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <form>
+                        <select id="country">
+                            <option value="de">Deutsch</option>
+                            <option value="en">English</option>
+                        </select>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="frame-text">
+            <iframe id="plan" src="../text_de.txt" width="1280" height="720"></iframe>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>
